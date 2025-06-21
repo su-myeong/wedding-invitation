@@ -10,15 +10,6 @@ export const Information = () => {
     <LazyDiv className="card information">
       <h2 className="english">Information</h2>
       <div className="info-card">
-        <div className="label">식사 안내</div>
-        <div className="content">
-          식사시간: 12시 30분 ~ 14시 30분
-          <br />
-          장소: 지하 1층 연회장
-        </div>
-      </div>
-
-      <div className="info-card">
         <div className="label">마음 전하기</div>
         <div className="content">
           참석이 어려워 직접 축하해주지 못하는
