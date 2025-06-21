@@ -22,7 +22,7 @@ dayjs.locale("ko")
 export { dayjs }
 
 export const WEDDING_DATE = dayjs.tz("2025-11-16 14:20", "Asia/Seoul")
-export const HOLIDAYS = [15]
+export const HOLIDAYS = [16]
 
 export const LOCATION = "퀸벨호텔 9층 퀸즈가든홀"
 export const LOCATION_ADDRESS = "대구시 동구 동촌로 200, 퀸벨호텔 9층"
