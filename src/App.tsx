@@ -6,7 +6,7 @@ import { Invitation } from "./component/invitation"
 import { Calendar } from "./component/calendar"
 import { Gallery } from "./component/gallery"
 import { Information } from "./component/information"
-import { GuestBook } from "./component/guestbook"
+//import { GuestBook } from "./component/guestbook"
 import { LazyDiv } from "./component/lazyDiv"
 import { ShareButton } from "./component/shareButton"
 
@@ -39,8 +39,8 @@ function App() {
         <LazyDiv className="card-group">
           {/* 마음 전하기 */}
           <Information />
-          {/* 방명록 */}
-          <GuestBook />
+//{/* 방명록 */}
+// <GuestBook />
         </LazyDiv>
 
         <ShareButton />
