@@ -30,7 +30,7 @@ export const LOCATION_ADDRESS = "대구시 동구 동촌로 200, 퀸벨호텔 9�
 export const SHARE_ADDRESS = LOCATION
 export const SHARE_ADDRESS_TITLE = LOCATION
 
-export const WEDDING_HALL_POSITION = [126.9594982, 37.4657134]
+export const WEDDING_HALL_POSITION = [35.882439, 128.662165]
 
 export const NMAP_PLACE_ID = 31918937
 export const KMAP_PLACE_ID = 19515367
