@@ -32,8 +32,8 @@ export const SHARE_ADDRESS_TITLE = LOCATION
 
 export const WEDDING_HALL_POSITION = [126.9594982, 37.4657134]
 
-export const NMAP_PLACE_ID = 13321741
-export const KMAP_PLACE_ID = 8634826
+export const NMAP_PLACE_ID = 31918937
+export const KMAP_PLACE_ID = 19515367
 
 export const BRIDE_FULLNAME = "손경원"
 export const BRIDE_FIRSTNAME = "경원"
