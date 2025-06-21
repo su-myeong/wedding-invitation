@@ -38,8 +38,8 @@ export const KMAP_PLACE_ID = 19515367
 export const BRIDE_FULLNAME = "손경원"
 export const BRIDE_FIRSTNAME = "경원"
 export const BRIDE_TITLE = "장녀"
-export const BRIDE_FATHER = "장인어른 성함"
-export const BRIDE_MOTHER = "장모님 성함"
+export const BRIDE_FATHER = "손영근"
+export const BRIDE_MOTHER = "김은덕"
 export const BRIDE_INFO = [
   {
     relation: "신부",
@@ -50,13 +50,13 @@ export const BRIDE_INFO = [
   {
     relation: "신부 아버지",
     name: BRIDE_FATHER,
-    phone: "010-0000-0000",
+    phone: "010-2980-6012",
     account: "00은행 00000000000",
   },
   {
     relation: "신부 어머니",
     name: BRIDE_MOTHER,
-    phone: "010-0000-0000",
+    phone: "010-9891-6011",
     account: "00은행 00000000000000",
   },
 ]
