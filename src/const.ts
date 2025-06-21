@@ -21,11 +21,11 @@ dayjs.locale("ko")
 
 export { dayjs }
 
-export const WEDDING_DATE = dayjs.tz("2024-08-24 13:00", "Asia/Seoul")
+export const WEDDING_DATE = dayjs.tz("2025-11-16 14:20", "Asia/Seoul")
 export const HOLIDAYS = [15]
 
-export const LOCATION = "서울대학교 연구공원 웨딩홀"
-export const LOCATION_ADDRESS = "서울시 관악구 관악로 1, 연구공원 본관 1층"
+export const LOCATION = "퀸벨호텔 9층 퀸즈가든홀"
+export const LOCATION_ADDRESS = "대구시 동구 동촌로 200, 퀸벨호텔 9층"
 
 export const SHARE_ADDRESS = LOCATION
 export const SHARE_ADDRESS_TITLE = LOCATION
@@ -35,55 +35,49 @@ export const WEDDING_HALL_POSITION = [126.9594982, 37.4657134]
 export const NMAP_PLACE_ID = 13321741
 export const KMAP_PLACE_ID = 8634826
 
-export const BRIDE_FULLNAME = "정지원"
-export const BRIDE_FIRSTNAME = "지원"
+export const BRIDE_FULLNAME = "손경원"
+export const BRIDE_FIRSTNAME = "경원"
 export const BRIDE_TITLE = "장녀"
-export const BRIDE_FATHER = "정상원"
-export const BRIDE_MOTHER = "박윤정"
+export const BRIDE_FATHER = "장인어른 성함"
+export const BRIDE_MOTHER = "장모님 성함"
 export const BRIDE_INFO = [
   {
     relation: "신부",
     name: BRIDE_FULLNAME,
-    phone: "010-0000-0000",
-    account: "우리은행 0000000000000",
+    phone: "010-7522-6011",
+    account: "대구은행 0000000000000",
   },
   {
     relation: "신부 아버지",
     name: BRIDE_FATHER,
     phone: "010-0000-0000",
-    account: "하나은행 00000000000",
+    account: "00은행 00000000000",
   },
   {
     relation: "신부 어머니",
     name: BRIDE_MOTHER,
     phone: "010-0000-0000",
-    account: "하나은행 00000000000000",
+    account: "00은행 00000000000000",
   },
 ]
 
-export const GROOM_FULLNAME = "남주호"
-export const GROOM_FIRSTNAME = "주호"
-export const GROOM_TITLE = "차남"
-export const GROOM_FATHER = "남현태"
-export const GROOM_MOTHER = "김현영"
+export const GROOM_FULLNAME = "김수명"
+export const GROOM_FIRSTNAME = "수명"
+export const GROOM_TITLE = "장남"
+export const GROOM_FATHER = "故김청봉"
+export const GROOM_MOTHER = "곽은정"
 export const GROOM_INFO = [
   {
     relation: "신랑",
     name: GROOM_FULLNAME,
-    phone: "010-0000-0000",
-    account: "하나은행 00000000000000",
-  },
-  {
-    relation: "신랑 아버지",
-    name: GROOM_FATHER,
-    phone: "010-0000-0000",
-    account: "신한은행 000000000000",
+    phone: "010-6236-0460",
+    account: "하나은행 50191059047407",
   },
   {
     relation: "신랑 어머니",
     name: GROOM_MOTHER,
-    phone: "010-0000-0000",
-    account: "국민은행 000000000000",
+    phone: "010-3670-0460",
+    account: "농협은행 35212872322763",
   },
 ]
 
