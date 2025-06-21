@@ -34,11 +34,11 @@ jobs:
 
       - name: Setup Environment Variables
         run: |
-          # 환경변수 값 출력 (디버깅용)
+        # 환경변수 값 출력 (디버깅용)
           echo "NAVER_MAP_CLIENT_ID: $REACT_APP_NAVER_MAP_CLIENT_ID"
           echo "KAKAO_SDK_JS_KEY: $REACT_APP_KAKAO_SDK_JS_KEY"
     
-          # .env 파일 생성
+        # .env 파일 생성
           echo "REACT_APP_NAVER_MAP_CLIENT_ID=$REACT_APP_NAVER_MAP_CLIENT_ID" > .env
           echo "REACT_APP_KAKAO_SDK_JS_KEY=$REACT_APP_KAKAO_SDK_JS_KEY" >> .env
         env:
