@@ -127,7 +127,6 @@ export const Information = () => {
           신부측 계좌번호 보기
         </Button>
       </div>
-      <AttendanceInfo />
-    </LazyDiv>
+      </LazyDiv>
   )
 }

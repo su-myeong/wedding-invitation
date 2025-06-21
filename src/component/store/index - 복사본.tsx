@@ -9,7 +9,7 @@ import {
   useState,
 } from "react"
 
-const NAVER_MAP_URL = `https://oapi.map.naver.com/openapi/v3/maps.js?ncpKeyId=${process.env.REACT_APP_NAVER_MAP_CLIENT_ID}`
+const NAVER_MAP_URL = `https://oapi.map.naver.com/openapi/v3/maps.js?ncpClientId=${process.env.REACT_APP_NAVER_MAP_CLIENT_ID}`
 const KAKAO_SDK_URL = `${process.env.PUBLIC_URL}/kakao.min.js`
 
 type ModalInfo = {
