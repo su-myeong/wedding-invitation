@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react"
-//import patelUrl from "../../image/petal.png"
+import patelUrl from "../../image/petal.png"
 
 const X_SPEED = 0.6
 const X_SPEED_VARIANCE = 0.8
@@ -66,7 +66,7 @@ class Petal {
       this.h * (0.8 + Math.abs(Math.sin(this.flip)) / 5),
     )
   }
-  */
+  
 
   animate() {
     this.x += this.xSpeed
@@ -150,3 +150,4 @@ export const BGEffect = () => {
     </div>
   )
 }
+*/
