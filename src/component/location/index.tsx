@@ -32,7 +32,7 @@ export const Location = () => {
             <b>버스 이용 시</b><br />
             → <b>퀸벨호텔 앞/건너 하차</b>(도보2분)<br />
             * 618, 719, 805, 818, 836, 980<br />
-            * 동구1, 동구1-1, 동구2, 동구3
+            * 동구1, 동구1-1, 동구3
           </div>
         </div>
         <div className="location-info">
