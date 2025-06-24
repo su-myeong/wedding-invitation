@@ -1,7 +1,7 @@
 import { Cover } from "./component/cover"
 import { Location } from "./component/location"
 import "./App.scss"
-//import { BGEffect } from "./component/bgEffect"
+import { BGEffect } from "./component/bgEffect"
 import { Invitation } from "./component/invitation"
 import { Calendar } from "./component/calendar"
 import { Gallery } from "./component/gallery"
