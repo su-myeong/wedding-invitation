@@ -9,7 +9,7 @@ const Y_SPEED_VARIANCE = 0.4
 
 const FLIP_SPEED_VARIANCE = 0.02
 
-/**
+
 // Petal class
 class Petal {
   x: number
@@ -150,4 +150,3 @@ export const BGEffect = () => {
     </div>
   )
 }
-*/
