@@ -48,7 +48,6 @@ export const Location = () => {
             <br />
             <b>★주차장이 혼잡할 수 있으니 아래 주차장 이용 부탁드립니다★</b>
             <br />
-              (자리가 없는 경우 아래 주차장 이용)
           </div>
           <div />
           <div className="content">
