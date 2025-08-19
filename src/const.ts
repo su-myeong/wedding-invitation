@@ -14,6 +14,13 @@ import image9 from "./image/image9.png"
 import image10 from "./image/image10.png"
 import image11 from "./image/image11.png"
 import image12 from "./image/image12.png"
+import image13 from "./image/image13.png"
+import image14 from "./image/image14.png"
+import image15 from "./image/image15.png"
+import image16 from "./image/image16.png"
+import image17 from "./image/image17.png"
+import image18 from "./image/image18.png"
+import image19 from "./image/image19.png"
 
 dayjs.extend(utc)
 dayjs.extend(timezone)
@@ -94,4 +101,11 @@ export const GALLERY_IMAGES = [
   image10,
   image11,
   image12,
+  image13,
+  image14,
+  image15,
+  image16,
+  image17,
+  image18,
+  image19
 ]
