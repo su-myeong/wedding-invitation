@@ -11,7 +11,6 @@ declare global {
 
 export const MusicPlayer = () => {
   const [isPlaying, setIsPlaying] = useState(false)
-  const [isMuted, setIsMuted] = useState(false)
   const [isPlayerReady, setIsPlayerReady] = useState(false)
   const playerRef = useRef<any>(null)
   const containerRef = useRef<HTMLDivElement>(null)
@@ -85,17 +84,6 @@ export const MusicPlayer = () => {
     }
   }
 
-  const toggleMute = () => {
-    if (!playerRef.current || !isPlayerReady) return
-
-    if (isMuted) {
-      playerRef.current.unMute()
-      setIsMuted(false)
-    } else {
-      playerRef.current.mute()
-      setIsMuted(true)
-    }
-  }
 
   return (
     <div className="music-player">
@@ -114,14 +102,6 @@ export const MusicPlayer = () => {
           aria-label={isPlaying ? "음악 일시정지" : "음악 재생"}
         >
           {isPlaying ? "⏸️" : "▶️"}
-        </button>
-        <button 
-          className={`music-btn mute-btn ${isMuted ? 'muted' : ''}`}
-          onClick={toggleMute}
-          disabled={!isPlayerReady}
-          aria-label={isMuted ? "음소거 해제" : "음소거"}
-        >
-          {isMuted ? "🔇" : "🔊"}
         </button>
       </div>
     </div>
