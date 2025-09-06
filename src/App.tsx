@@ -9,6 +9,7 @@ import { Information } from "./component/information"
 //import { GuestBook } from "./component/guestbook"
 import { LazyDiv } from "./component/lazyDiv"
 import { ShareButton } from "./component/shareButton"
+import { MusicPlayer } from "./component/musicPlayer"
 
 function App() {
   return (
@@ -45,6 +46,7 @@ function App() {
 
         <ShareButton />
       </div>
+      <MusicPlayer />
     </div>
   )
 }
