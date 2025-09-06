@@ -84,12 +84,13 @@ yarn start
    - `src/image` 디렉토리에 이미지 파일 추가
    - 컴포넌트의 이미지 import 경로 수정
 
-3. 배경음악 추가:
+3. 배경음악 설정:
 
-   - `public` 디렉토리에 `wedding-music.mp3` 파일 추가
-   - 권장 형식: MP3, WAV, OGG
-   - 권장 길이: 2-5분 (반복 재생)
+   - YouTube 링크를 사용하여 배경음악 재생
+   - `src/component/musicPlayer/index.tsx`에서 `YOUTUBE_VIDEO_ID` 수정
+   - 예: `const YOUTUBE_VIDEO_ID = "your-video-id"`
    - 권장 음악: 로맨틱한 피아노, 오케스트라, 또는 어쿠스틱 음악
+   - 자동 재생 비활성화 (사용자 클릭 시에만 재생)
 
 4. 스타일 및 글귀 수정:
 
